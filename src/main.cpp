@@ -70,8 +70,8 @@ int main() {
         if (final_seeds.size()>0){
             std::cout<<"Well done, you have your seed here in the chat and also in final_seeds.txt, enjoy!"<<std::endl;
             std::cout<<"You can still contact me on discord: Neil#4879 if you have any issue!"<<std::endl;
+            std::cout<<"Quit? (Y/N)"<<std::endl;
             while (true){
-                std::cout<<"Quit? (Y/N)"<<std::endl;
                 char *output = inputString(stdin, 10);
                 if (output[0]=='Y' || output[0]=='y'){
                     return 0;
@@ -87,8 +87,8 @@ int main() {
                 }
                 std::cout<<pillar_seed<<std::endl;
             }
-            while (true){
-                std::cout<<"Quit? (Y/N)"<<std::endl;
+            std::cout<<"Quit? (Y/N)"<<std::endl;
+            while (true){    
                 char *output = inputString(stdin, 10);
                 if (output[0]=='Y' || output[0]=='y'){
                     return 0;
